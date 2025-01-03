@@ -3,6 +3,7 @@ import './Home.css'
 import Navbar from '../../Components/Shared/Navbar'
 import Hero from '../../Components/Home/Hero'
 import TrendingGames from '../../Components/Home/TrendingGames'
+import Industry from '../../Components/Home/Industry'
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Navbar/>
         <Hero/>
         <TrendingGames/>
+        <Industry/>
+
       
     </div>
   )
